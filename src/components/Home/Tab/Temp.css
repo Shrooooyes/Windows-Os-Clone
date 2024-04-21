@@ -1,0 +1,117 @@
+.tab {
+  width: 600px;
+  border: 1px solid black;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.mrc img {
+  width: 10px;
+}
+
+.title {
+  background: linear-gradient(90deg, #0a304d, #22445e);
+  color: whitesmoke;
+  width: 84.5%;
+}
+
+.mrc {
+  top: 0;
+}
+
+.mrc button {
+  width: 30px;
+  background-color: whitesmoke;
+  border: none;
+  opacity: 0.6;
+}
+
+.mrc button:nth-child(3) {
+  background-color: red;
+}
+
+.mrc button:hover {
+  opacity: 1;
+}
+
+.File-name {
+  width: 80%;
+  text-align: center;
+}
+
+.header2 {
+  border-bottom: 1px solid black;
+}
+
+.footer {
+  border-top: 1px solid black;
+  background: linear-gradient(90deg, #0a304d, #22445e);
+  color: white;
+  height: 70px;
+  font-size: 13px;
+  padding-left: 20px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30%;
+  height: 84%;
+  justify-content: space-between;
+}
+
+.folders {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 20px;
+  column-gap: 20px;
+}
+
+.folder {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  text-align: center;
+}
+
+.folder button {
+  background-color: transparent;
+  border: none;
+}
+
+.folders button:focus,
+button:active button {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.backBtn img {
+  width: 30px;
+  height: auto;
+}
+
+.backBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.handle {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.handle:active{
+  background-color: rgb(7, 80, 145);
+  left: 0;
+}

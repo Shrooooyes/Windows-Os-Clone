@@ -1,0 +1,69 @@
+.HomeScreen {
+  position: absolute;
+  left: 0;
+  max-width: 100%;
+  z-index: 0;
+}
+
+.MenuBar {
+  position: absolute;
+  z-index: 100;
+  color: black;
+  background: linear-gradient(90deg, #0a304d, #22445e);
+  width: 100%;
+  height: 50px;
+  top: 720px;
+}
+
+.popup-content {
+  background-color: #38566e;
+  color: whitesmoke;
+  border: none;
+}
+
+.popup-arrow {
+  color: #38566e;
+  filter: none;
+  stroke: none;
+}
+
+.tray button {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  transition: all ease 0.4s;
+  border-radius: 3px;
+}
+
+.tray button:hover {
+  background-color: #50799b;
+}
+
+.tray img {
+  width: 25px;
+}
+
+.myApps {
+  position: absolute;
+  z-index: 999;
+  left: 10px;
+  top: 10px;
+}
+
+.myApps button {
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.myApps button:focus,
+button:active button {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.Tabs {
+  position: absolute;
+  z-index: 999;
+}

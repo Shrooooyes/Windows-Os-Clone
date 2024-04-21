@@ -1,0 +1,72 @@
+.StartBtn {
+  position: absolute;
+  background-color: transparent;
+  max-height: 50px;
+  max-width: 50px;
+  padding: 0px;
+  border: none;
+  left: 0px;
+}
+
+.StartBtn:hover {
+  background-color: #38566e;
+}
+
+.Search {
+  position: absolute;
+  top: 5px;
+  left: 55px;
+  width: 363px;
+  height: 40px;
+}
+
+.icons {
+  position: absolute;
+  left: 430px;
+}
+
+.icons svg {
+  width: 45px;
+  height: 45px;
+}
+
+.icons button {
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+}
+
+.icons button:hover, .end-icons button:hover {
+  background-color: #38566e;
+}
+
+
+.end-icons button {
+  height: 45px;
+  width: 45px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  transition: all ease 0.5s;
+  color: whitesmoke;
+}
+.caret img {
+  width: 30px;
+  transform: rotate(180deg);
+}
+
+.charge img {
+  width: 30px;
+  height: auto;
+}
+
+.end-icons{
+  position: absolute;
+  top: 721px;
+  left: 1112px;
+  z-index: 1000;
+}
+

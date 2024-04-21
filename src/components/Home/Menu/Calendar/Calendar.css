@@ -1,0 +1,25 @@
+.hey button {
+    width: 50px;
+    color: whitesmoke;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+}
+
+.hey button:hover {
+    background-color: rgb(14, 136, 177);
+}
+
+
+.hey {
+    align-items: flex-start;
+}
+
+.hey .Today {
+    background-color: rgb(7, 76, 99);
+    border-radius: 50px;
+}
+
+.hey .Sunday {
+    color: red;
+}

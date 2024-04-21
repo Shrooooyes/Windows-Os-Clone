@@ -1,0 +1,11 @@
+.txt {
+  background: linear-gradient(45deg, #0a304d, #22445e);
+  height: 100vh;
+}
+
+.moreTxt {
+  color: whitesmoke;
+  position: absolute;
+  top: 60%;
+  left: 46%;
+}

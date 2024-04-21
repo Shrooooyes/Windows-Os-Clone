@@ -1,0 +1,149 @@
+.Start-menu img {
+  width: 50px;
+  height: auto;
+  padding: 0;
+  margin-left: 4px;
+}
+
+.Start-menu svg {
+  width: 40px;
+  height: auto;
+  margin: 0px 3px;
+  padding: 0;
+}
+
+.Start-menu button {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  transition: all ease 0.4s;
+}
+
+.All-programs button:hover {
+  background-color: #0f4a77;
+}
+
+.Start-menu p {
+  padding: 0px 6px;
+  margin-top: 10px;
+}
+
+.Chrome,
+.Files,
+.Settings,
+.Powerpoint,
+.Internet {
+  display: flex;
+}
+
+.Chrome:hover,
+.Files:hover,
+.Settings:hover,
+.Powerpoint:hover,
+.Internet:hover {
+  background-color: #b9bbbd;
+}
+
+.white-part {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 10px 0px 10px 0px;
+}
+.All-programs button {
+  border-radius: 0px;
+  border-top: 1px solid black;
+  width: 100%;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+.AllP-arow {
+  position: absolute;
+}
+
+.Start-menu {
+  display: flex;
+  column-gap: 5px;
+}
+
+.moreoptions {
+  background-color: #0f4a77;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.options {
+  padding-left: 10px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.options button {
+  color: white;
+  padding-top: 10px;
+}
+
+.options button:hover {
+  color: rgb(100, 100, 100);
+}
+
+.Acc {
+  position: absolute;
+  left: 76%;
+  top: -10px;
+}
+
+.Acc img {
+  width: 65px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.Acc button:hover img {
+  border: 5px solid rgb(129, 129, 129);
+}
+
+.command {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  display: flex;
+}
+
+.command button {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 96px;
+}
+
+.command select {
+  width: 20px;
+}
+
+.OK button{
+    background-color: transparent;
+    border: none;
+}
+
+.Box {
+    text-align: center;
+}
+
+.modal-open {
+  position: absolute;
+  width: 321%;
+  top: 200px;
+  height: 100px;
+}
+
+.modal-closed {
+  display: none;
+}
+
+.Box {
+  height: 212px;
+  padding: 60px;
+  background-color: whitesmoke;
+  color: black;
+}
